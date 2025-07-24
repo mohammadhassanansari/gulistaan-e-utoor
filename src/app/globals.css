@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap'); */
+
+/* Custom color variables for Tailwind v4 CSS-first theming */
+@theme {
+  --color-imperial-gold: #FFD700;
+  --color-emerald-jewel: #24B47E;
+  --color-noble-crimson: #D7263D;
+  --color-opulent-amethyst: #8163A1;
+  --color-silk-white: #F4F6F8;
+  --color-deep-sapphire: #102542;
+  --color-arctic-blue: #6BCBEE;
+  --color-peach-skin: #FFD1BA;
+  --color-graphite-black: #22222B;
+}
+
+@layer base {
+  html {
+    font-family: 'Lato', system-ui, sans-serif;
+    background: var(--color-silk-white);
+    color: var(--color-graphite-black);
+  }
+  body {
+    min-height: 100vh;
+    background: var(--color-silk-white);
+    color: var(--color-graphite-black);
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+}

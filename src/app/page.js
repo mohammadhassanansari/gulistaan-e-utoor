@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import { motion } from "framer-motion";
 import Header from '@/components/Header';
@@ -55,7 +56,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Welcome to <span className="text-noble-crimson">Gulistaan-e-Utoor</span>
+            Welcome to <span className="text-noble-crimson">Gulistaan-Utoor</span>
           </motion.h1>
           <motion.p
             className="text-lg md:text-xl max-w-xl text-silk-white text-center mb-8 font-medium drop-shadow"

@@ -9,8 +9,7 @@ model Product {
   id        String   @id @default(cuid())
   brand     String
   name      String
-  price3ml  Int
-  price6ml  Int
+  price     Int
   imageUrl  String
   createdAt DateTime @default(now())
 }

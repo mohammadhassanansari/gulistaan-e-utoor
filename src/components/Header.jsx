@@ -20,7 +20,7 @@ export default function Header() {
                 className="font-heading text-3xl tracking-wider text-imperial-gold font-extrabold hover:text-noble-crimson transition"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
-                Gulistaan-e-Utoor
+                Gulistaan-Utoor
               </Link>
               <div className="hidden md:flex items-center gap-6 font-semibold text-lg">
                 <Link href="/products" className="hover:text-imperial-gold transition">

@@ -1,1 +1,1 @@
-hhhdydydcucuftcvdydccccc
+min
